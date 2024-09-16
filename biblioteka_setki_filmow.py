@@ -38,27 +38,8 @@ movies = [
     "director": "Peter Faiman",
     "actors": ["Paul Hogan", "Linda Kozlowski", "John Meillon", "David Gulpilil"],
     "plot": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
-  },
-  {
-    "id": 5,
-    "title": "Valkyrie",
-    "year": 2008,
-    "runtime": 121,
-    "genres": ["Drama", "History", "Thriller"],
-    "director": "Bryan Singer",
-    "actors": ["Tom Cruise", "Kenneth Branagh", "Bill Nighy", "Tom Wilkinson"],
-    "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
-  },
-  {
-    "id": 6,
-    "title": "Ratatouille",
-    "year": 2007,
-    "runtime": 111,
-    "genres": ["Animation", "Comedy", "Family"],
-    "director": "Brad Bird, Jan Pinkava",
-    "actors": ["Patton Oswalt", "Ian Holm", "Lou Romano", "Brian Dennehy"],
-    "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
   }]
 print(movies)
 
-
+movies[0]["plot"] = "Film opowiada historię dwóch duchów. Małżeństwo po śmierci zamierza wrócić do swego domku, jednak okazuje się, że został on zajęty przez rodzinę miłośników sztuki, którzy zamienili rezydencję w muzeum, zastawione rzeźbami "
+print(movies)
